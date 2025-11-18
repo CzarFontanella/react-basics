@@ -4,6 +4,7 @@ import './index.css'
 import NavBar from './components/NavBar/NavBar'
 import Footer from './components/Footer/Footer'
 import Home from './pages/Home'
+import Pokedex from './pages/Pokedex/Pokedex'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -11,7 +12,8 @@ createRoot(document.getElementById('root')).render(
       <NavBar />
     </header>
     <main>
-      <Home />
+      {/* <Home /> */}
+      <Pokedex />
     </main>
     <footer>
       <Footer />
